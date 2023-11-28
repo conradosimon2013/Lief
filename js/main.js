@@ -1,5 +1,4 @@
     $(document).ready(function () {
-        $("#barra").click(function(){
-            $("#menur").css("display", "block");
-        });
+        $("#barrar").click(function(){
+            $("#menur").css({display: "none"});
     });
