@@ -2,7 +2,6 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
-    color: rgba(240, 240, 240, 0.9);
 }
 header {
 width: 100%;
@@ -18,6 +17,7 @@ header div a {
     font-size: 14px;
     padding: 8px 8px;
     background-color:;
+    color: rgba(240, 240, 240, 0.9);
     
 }
 .barra{
@@ -69,3 +69,82 @@ header img {
 
 
   }
+
+
+  /* esto agregado */
+  
+  .infopubli {
+    width:fit-content;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .descriptionpubli {
+    display: block;
+    width: 50%;
+    margin-left: 76px;
+    line-break: anywhere;
+  }
+
+
+  .infopubli a {
+    display: flex;
+  }
+
+  .infopubli a img {
+    width: 50px;
+    border-radius: 50%;
+    margin: auto 10px;
+  }
+  .infopubli a h4 {
+    margin: auto 10px;
+  }
+
+  .content {
+    width: 50vw;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+  .content div {
+    width: 90%;
+    margin: 0px auto;
+    
+  }
+  .content div p{
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    display: inline-block;
+    width: 32.902%;
+  }
+  .content img {
+    width: 90%;
+
+  }
+
+  .content div p i {
+    margin-right: 10px;
+  }
+
+  @media only screen and (max-width: 850px) {
+
+    .content {
+        width: 85vw;
+    }
+    .infopubli {
+        
+        font-size: 12px;
+    }
+  }
+
+  .option {
+   display: inline-block;
+   margin: auto 30px;
+   cursor: pointer;
+  }
+  .contentinfo {
+    display: flex;
+    justify-content: space-between;
+  }
+  
