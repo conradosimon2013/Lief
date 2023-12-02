@@ -1,6 +1,15 @@
 
 <!--Publicacion común-->
 <main>
+
+<div class="infolr">
+
+</div>
+
+
+
+
+
     <div class="infopubli">
         <div class="contentinfo">
         <a href="" class="">
@@ -23,7 +32,11 @@
             </div>
         </div>
 
+        
 
+    </div>
+
+    <div class="infolr">
 
     </div>
 </main>
